@@ -1,5 +1,5 @@
 body {
-  background-color: Azure;
+  background-color: #FFFFFF;
 }
 
 h1 {
@@ -14,10 +14,53 @@ form {
   height: 500px;
 }
 
-.vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+/* ########## HEADER NAVBAR ########## */
+.headernav a {
+  color: #5F6368;
+  text-align: center;
+  padding: 7px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.headernav a:hover {
+  text-decoration: underline;
+}
+
+.headernav-right {
+  float:right;
+}
+
+.headernav i {
+  color: gray;
+}
+
+.headernav i:hover {
+  color: black;
+}
+
+/* ########## FOOTER NAVBAR ########## */
+.footernav {
+  background-color: #F2F2F2;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footernav a {
+  float: left;
+  display: block;
+  color: #5F6368;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.footernav-right {
+  float:right;
 }

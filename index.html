@@ -8,21 +8,29 @@
     
     <link rel="stylesheet" href="styles/main.css">
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 </head>
 
 <body>
     <header>
-        <ul>
-            <li>About</li>
-            <li>Store</li>
-            <li>Gmail</li>
-            <li>Images</li>
-            <li>Apps Icon</li>
-            <li>Sign In</li>
-        </ul>
+        <div class="headernav">
+            <!-- Left-aligned links-->
+            <a href="#">About</a>
+            <a href="#">Store</a>
+
+            <!-- Right-aligned links-->
+            <div class="headernav-right">
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+                <a href="#"><i class="material-icons">apps</i></a>
+                <a href="#" style="background-color:#4486F6; color:white; ">Sign In</a>
+            </div>
+        </div>
+
     </header>
     
-    <img src="images/google-logo.png">
+    <img src="images/foogle-logo.png" class="center">
 
     <form>
         <input type="text">
@@ -30,14 +38,18 @@
     </form>
 
     <footer>
-        <ul>
-            <li>Advertising</li>
-            <li>Business</li>
-            <li>How Search works</li>
-            <li>Privacy</li>
-            <li>Terms</li>
-            <li>Settings</li>
-        </ul>
+        <div class="footernav">
+            <!-- Left-aligned links-->
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search works</a>
+            <!-- Right-aligned links-->
+            <div class="footernav-right">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+                </div>
+        </div>
     </footer>
 
 </body>
